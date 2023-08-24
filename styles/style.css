@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* чем отличаются * и  body? зачем эта дополнительная фрагментация? */
 body {
   font-family: "Roboto", sans-serif;
   background: #282b38;
@@ -22,20 +21,11 @@ header {
   width: 40%;
   margin-top: 41px;
 }
-
 .nav_link {
   text-decoration: none;
   color: white;
-  /* margin-left: 5%; */
-
 }
 .btn {
-  /*
-    у всех кнопок есть одинаковые свойства. Для этого задается несколько классов в html.
-    Напр.: <a class="button download_button" href="#">Загрузить фото товара</a>
-    И родительский класс .button стилизует одинаковые для всех кнопок свойства, а родной .download_button
-    уже свойства, присущие именно этой конкретной кнопке загрузки файла
-  */
   background: rgb(255 129 0);
   border-radius: 90px;
   margin-top: 25px;
@@ -48,8 +38,6 @@ header {
 }
 .describe_wrap {
   background-image: url(../images/Rectangle_3.png);
-  /* пробелы в названиях файлов желательно не применять Rectangle 3.png */
-  /* напр., Rectangle3.png, Rectangle_3.png, Rectangle-3.png */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
